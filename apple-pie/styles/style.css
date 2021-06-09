@@ -46,3 +46,16 @@ img {
   margin: 50px auto;
   display: block;
 }
+
+#instructions {
+  list-style: none;
+  counter-reset: custom-counter;
+}
+
+.instruction {
+  counter-increment: custom-counter;
+}
+
+.instruction::before {
+  content: counter(custom-counter) ') ';
+}
