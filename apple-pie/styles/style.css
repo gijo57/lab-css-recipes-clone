@@ -19,8 +19,9 @@ h1 {
 }
 
 #recipe {
-  margin: 50px 100px;
-  padding: 20px 100px;
+  max-width: 1450;
+  /*margin: 50px 100px;*/
+  padding: 40px 200px;
   font-size: 1.5em;
   line-height: 1.4;
   color: rgb(61, 61, 61);
@@ -45,6 +46,7 @@ hr {
 img {
   margin: 50px auto;
   display: block;
+  max-width: 100%;
 }
 
 #instructions {
